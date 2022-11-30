@@ -51,6 +51,10 @@ header {
     font-size: 20px;
 }
 
+.blog__link:hover {
+    color: #B6BDF8;
+}
+
 .blog__icon {
     display: flex;
     flex-direction: row;
@@ -82,6 +86,9 @@ header {
     line-height: 19px;
 }
 
+.header__link:hover {
+    color: #B6BDF8;
+}
 .nav__lines {
     width: 25px;
     height: 25px;
@@ -106,6 +113,9 @@ header {
     line-height: 25px;
     text-align: center;
     font-family: PT Serif;
+}
+.button-header-email:hover {
+    background-color: #F1F2F6;
 }
 
 .icon-header-email {
@@ -133,7 +143,6 @@ header {
     padding: 0 80px 0;
     display: flex;
     justify-content: space-between;
-
 }
 
 .main__text {
@@ -142,7 +151,6 @@ header {
 }
 
 .title {
-
     font-size: 72px;
     font-weight: 400;
     padding: 100px 0px 34px 0px;
@@ -156,7 +164,6 @@ header {
 }
 
 .main__img {
-
     margin: 38px 33px 40px 58px;
 }
 
@@ -190,6 +197,11 @@ header {
 
 .cup__text p {
     text-decoration-line: underline;
+}
+
+.cup__text a:hover {
+    text-decoration-line: underline;
+    color: #F1F2F6;
 }
 
 .my-skills {
@@ -422,6 +434,11 @@ header {
     text-transform: uppercase;
 }
 
+.view-projects-btn:hover {
+    background-color: #F1F2F6;
+    color: #610C26;
+}
+
 #services {
     padding-top: 144px;
     background: #FFA800;
@@ -522,6 +539,28 @@ header {
     cursor: pointer;
 }
 
+@keyframes bounce {
+	0%, 10%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+}
+
+.btn-services:hover {
+    background-color: #F1F2F6;
+    animation: bounce 1.5s;
+}
+
 .big-wave-gray {
     margin-left: auto;
 }
@@ -584,6 +623,12 @@ header {
     text-align: center;
 }
 
+.blog__link-btn:hover {
+    background-color: #F1F2F6;
+    color: #610C26;
+    box-shadow: inset 0 0 0 0.5px #E30C33;
+}
+
 .blog-arrow-right-publications {
     margin-left: 12px;
     margin-right: 40px;
@@ -641,6 +686,11 @@ header {
     border-bottom: 1px solid #D8D8EB;
 }
 
+.blog-article__link:hover {
+    text-decoration-line: underline;
+    color: #610C26;
+}
+
 .blog-arrow-link {
     background: url(../images/arrow_right_red.png);
     background-repeat: no-repeat;
@@ -692,6 +742,11 @@ header {
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    text-decoration-line: underline;
+}
+
+.link__about:hover {
+    color: #610C26;
 }
 
 .reviews {
@@ -798,6 +853,11 @@ header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.footer-email:hover {
+    text-decoration-line: underline;
+    color: #6495ED;
+}
+
 .footer__navigation {
     column-count: 2;
     list-style-type: decimal;
@@ -810,6 +870,11 @@ header {
     font-size: 18px;
     line-height: 28px;
 }
+
+.footer__navigation-link:hover {
+    text-decoration-line: underline;
+}
+
 
 .footer__navigation-link:nth-of-type(2) {
     padding-right: 10px;
@@ -851,6 +916,11 @@ form {
     background-color: #FFF7D0;
     border-radius: 240px;
     border: none;
+    cursor: pointer;
+}
+
+.subscribe:hover {
+    background-color: #FFFAFA;
 }
 
 .subscribe-img {
