@@ -1,0 +1,49 @@
+@media (max-width: 1440px) {
+    .header__list {
+        display: none;
+
+    }
+    .nav__lines {
+        display: none;
+    }
+    .nav-button {
+        display: block;
+        position: absolute;
+        z-index: 9;
+        top: 28px;
+        right: 30px;
+        cursor: pointer;
+        background-color: #FFA800;
+        border: none;
+
+    }
+
+    .header__nav.open .header__list {
+        position: absolute;
+        top: 62px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        padding: 28px 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+        text-align: right;
+
+     
+    }
+    .nav.open {
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+    .line {
+        margin: 4px;
+        padding-top: 5px;
+        border-bottom: 4px solid #FFF7D0;
+        width: 45px;
+        margin-left: auto;
+    
+        }
+    }
